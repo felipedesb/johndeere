@@ -1,0 +1,776 @@
+@charset "utf-8";
+
+
+
+
+/*===========================================teste*/
+
+
+
+.pqessaporranvai {
+    background-color: black
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container1 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container1 p span.typed-text {
+  font-weight: normal;
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container1 p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container1 p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================fim dos testes*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background:  black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+span {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*==========================inicio do nav*/
+.imgnav {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: -70px;
+}
+
+.titulo-nav { /*usei para configurar o titulo  */
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green ;
+    padding-top: 10px;
+    text-align: center
+}
+nav { 
+    background: yellow;
+    color: #b6c2aa;
+    padding: 80px;
+    border-bottom: 0.25rem solid #485158;
+    /*
+    position: fixed;
+    top: 0;
+    width: 100%;*/
+}
+
+
+/*==================================inico da introdução*/
+.divintro {
+    background-color: black;
+    margin-top: -10px;
+}
+
+
+.imgintro {
+    margin-left: 16%;
+    margin-right: 10%;
+    width: 1000px;
+    height: 600px;
+    margin-top: 5%;
+}
+
+.pintro {
+margin-left: 25%;
+}
+
+.pintro2 {
+margin-left: 20%;
+margin-right:20% ;
+}
+
+figcaption {
+    margin-left: 40%;
+}
+
+
+/*==================================fim da introdução*/
+
+
+
+
+/*==================================inico do primeiro produto */
+
+.divprimeiroproduto {
+    background-color: black;
+    margin-top: -2px;
+    margin-bottom: -20px;
+}
+
+.titleproduto {
+    margin-left: 30%;
+    padding-bottom: 0px;
+    padding-top: 2%;
+    font-size: 40px;
+}
+
+.imgproduto {
+    margin-left: 16%;
+    margin-right: 10%;
+    width: 1000px;
+    height: 600px;
+}
+
+.pproduto {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 10px;
+}
+
+.legimgproduto {
+    margin-left: 45%;
+    font-size: 15px;
+}
+
+/*==================================fim do primeiro produto */
+
+
+
+/*==================================inico do conquistando o publico*/
+
+.divconquista {
+   
+    background-color: black;
+    margin-bottom: -17px;
+    margin-top: -16px;
+    padding-bottom: 4%;
+}
+
+.titleconquista {
+    padding-top: 3%;
+    margin-left: 30%;
+    font-size: 40px;
+}
+
+.imgconquista {
+    margin-left: 16%;
+    margin-right: 10%;
+    width: 1000px;
+    height: 600px;
+} 
+
+.pconquista {
+    margin-left: 17%;
+    margin-right: 20%; 
+}
+
+/*==================================fim do conquistando o publico*/
+
+
+
+
+/*==================================inicio do meio ambiente*/
+
+.divmeioambiente {
+background-color: black;
+padding-bottom: 10%;
+margin-bottom: -20px;
+
+}
+
+.titlemeioambiente {
+    padding-top: 3%;
+    margin-left: 30%;
+    font-size: 40px;
+}
+
+.pmeioambiente {
+    margin-left: 17%;
+    margin-right: 20%;
+}
+
+.imgmeioambiente {
+    margin-left: 16%;
+    margin-right: 10%;
+    width: 1000px;
+    height: 600px;
+}
+
+/*================================== fim do meio ambiente*/
+
+
+
+
+
+/*==================================inicio da evolução da logo*/
+
+
+.divevolucao {
+    background-color: black;
+}
+
+.titleevolucao {
+    margin-left: 30%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+/*==================================fim da evolução da logo*/
+
+
+/*==================================inicio do pq nos escolher*/
+
+.divpqescolher {
+    background-color: black;
+    padding-bottom: 5%;
+}
+
+.titlepqescolher {
+    padding-top: 3%;
+    margin-left: 30%;
+    font-size: 40px;
+}
+
+.ppqescolher {
+    margin-left: 17%;
+    margin-right: 20%;
+}
+
+.imgpqescolher {
+    margin-left: 16%;
+    margin-right: 10%;
+    width: 1000px;
+    height: 600px;
+}
+
+.legpqescolher {
+    margin-left: 33%;
+    font-size: 15px;
+}
+
+/*==================================fim do pq nos escolher*/
+
+
+
+/*==================================inicio do carrosel*/
+
+
+
+.backcarr { /*usei para configurar o background da seção do carrosel*/
+    background-color: #e5d8c5;
+}
+.legprod{ /*usei para configurar a letra do produto*/
+    color:  #270f27;
+    margin-bottom: -40px;
+    margin-bottom: -90px;
+}
+.saiba2 { /*usado para configurar a cor da escrita "saiba mais"*/
+    color: #270f27;
+    padding-top: 60px;
+}
+.titlemaior { /*usei para configurar o titulo do carrosel*/
+    padding-left: 100px;
+}
+.saibamais {
+color: #d1d1d1;
+}
+.carousel-control-prev-icon { /*usei para configurar o background no botão de passar o proximo slide*/
+    background-color: black;
+}
+.carousel-control-next-icon { /*usei para configurar o background no botão de voltar o proximo slide*/
+    background-color: black;
+}
+
+.legcarrousel {
+    color: black;
+}
+.saibacarro { /*usei para configurar o saiba mais do carrousel*/
+    color: green;
+}
+
+.imgcar {
+    -moz-transition: all 0.9s;
+	-webkit-transition: all 0.9s;
+	transition: all 0.9s;  
+}
+
+.imgcar:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+
+.imgcarrousel {
+    -moz-transition: all 0.9s;
+	-webkit-transition: all 0.9s;
+	transition: all 0.9s;  
+}
+
+.imgcarrousel:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+/*==================================fim do 2 carrosel*/
+
+
+
+/*================================inicio do video*/
+.divvideo {
+    background-color: #e5d8c5;
+}
+
+.titlevideo {
+    padding-top: 5%;
+    text-align: center;
+    color: black;
+}
+
+.video1 {
+    width: 1000px;
+    height: 600px; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+/*================================fim do video*/
+
+
+
+/*========================================inicio do rodapé*/
+footer {
+    background-color: black ;
+    padding-bottom: 50px;
+    color: white;
+}
+.imgfooter {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border-radius: 10px;
+  transition: all 0.5s;
+    cursor: pointer;
+    border: 10px solid transparent;
+
+}
+.imgfooter:hover {
+    border: 10px solid green;
+    border-radius: 10%;
+}
+
+.imginsta { /*usado para configurar o icone do insta*/
+    width: 55px;
+    height: 55px;
+}
+
+.imginsta:hover { /*usado para configurar o hover do icone  do insta*/
+    background-color: green;
+    color: #32293c;
+    border-radius: 12px;
+}
+
+
+.linkedin {  /*usado para configurar o icone  do linkedin*/
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+.linkedin:hover { /*usado para configurar o hover do icone  do linkedin*/
+    background-color: green;
+    color: #32293c;
+    border-radius: 12px;
+}
+
+.displayfooter {
+    font-family: arial;
+    display: flex;
+}
+
+.footerlinkedin { /*usei para configurar a organização dos icones do linkedin*/
+    display: flow-root;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/*==================================fim do footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================================media query*/
+
+
+
+   @media(max-width:980px) {
+    body {
+    background-color: rebeccapurple;
+    }
+
+    nav {
+        flex-direction:column;
+        display: flex;
+        margin-right: -0%;
+    }
+
+    .titulo-nav { /*usado para configurar o titulo da navegação */
+        margin-top: -20%;
+        font-size: 70px;
+        margin-left: 100px;
+    }
+
+    
+
+
+    .imgnav { /*usado para configurar a img da navegação */
+        margin-top: 0%;
+    }
+
+    .imgintro{ /*usado para configurar a img da introdução */
+        width: 700px;
+        height: 500px;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+
+    .pintro { /*usado para configurar o paragráfo da introdução */
+    margin-left:20% ;
+    margin-right:16% ;
+    font-size: 50px;
+    }
+
+    .pintro2 { /*usado para configurar o 2 paragráfp da introdução*/
+        font-size: 40px;
+        margin-right: 16%;
+    }
+
+    figcaption { /*usado para configurar a legenda da  img da introdução */
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+
+/*================fim da intro*/
+
+
+
+    .imgproduto { /*usado para configurar a img dos produtos */
+        width: 700px;
+        height: 500px;
+        margin-left: 15%;
+        margin-right: 10%;
+        
+    }
+
+    .titleproduto { /*usado para configurar o titulo dos produtos */
+        margin-left: 25%;
+        margin-right: 10%;
+        font-size: 65px;
+    }
+
+ 
+    .pproduto { /*usado para configurar o paragráfo dos produtos */
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+
+
+    .legimgproduto { /*usado para configurar a legenda da img dos produtos */
+        font-size: 40px;
+        margin-left: 25%;
+    }
+
+    .pprodutoinferior {  /*usado para configurar o paragráfo de baixo na área de prodtos */
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+
+/*===========fim do produtos */
+
+
+
+/*===========inicio da conquistas*/
+
+
+    .divconquista { /*usado para configurar a div conquista */
+       margin-bottom: -30px;
+    }
+
+    .imgconquista { /*usado para configurar a img da conquista */
+        width: 700px;
+        height: 500px;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+
+    .titleconquista { /*usado para configurar o titulo da conquista */
+        font-size: 58px;
+        margin-left: 18% ;
+        margin-right: 10%;
+    }
+
+    .pconquista { /*usado para configurar o paragráfo do conquista */
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+
+/*===========fim da conquista */
+
+
+/*=====inicio do meio ambiente*/
+
+.divmeioambiente {
+    background-color: black;
+    padding-bottom: 10%;
+    margin-bottom: -20px;
+    }
+    
+    .titlemeioambiente { /*usado para configurar o title do meio ambiente */
+        padding-top: 3%;
+        margin-left: 20%;
+        font-size: 58px;
+    }
+    
+    .pmeioambiente { /*usado para configurar o paragráfo do meio ambiente */
+        font-size: 40px;
+        margin-left: 17%;
+        margin-right: 20%;
+    }
+    
+    .imgmeioambiente { /*usado para configurar  a img do meio ambiente */
+        margin-left: 15%;
+        margin-right: 10%;
+        width: 700px;
+        height: 500px;
+    }
+    
+/*========fim do meio ambiente*/
+
+
+
+/*======inicio do pq nos escolher*/
+
+.divpqescolher { /*usado para configurar a div pq nos escolher */
+    background-color: black;
+    padding-bottom: 5%;
+}
+
+.titlepqescolher { /*usado para configurar o title dos pq nos escolher */
+    padding-top: 3%;
+    margin-left: 17%;
+    margin-right: 10%;
+    font-size: 58px;
+}
+
+.ppqescolher { /*usado para configurar o paragragráfo do pq nos escolher */
+    margin-left: 17%;
+    margin-right: 20%;
+    font-size: 40px;
+}
+
+.imgpqescolher { /*usado para configurar a img do pq nos escolher */
+    margin-left: 15%;
+    margin-right: 10%;
+    width: 700px;
+    height: 500px;
+}
+
+.legpqescolher { /*usado para configurar a legenda do pq nos escolher */
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+/*====fim do pq nos escolher*/
+
+
+/*inicio do carrousel*/
+
+.imgcarrousel { /*usado para configurar a img do carrousel */
+    width: 700px;
+    height: 500px;
+}
+
+/*===fim do carrousel*/
+
+
+
+
+/*================================inicio do video*/
+
+
+.video1 { /*usado para configurar o video */
+    width: 700px;
+    height: 500px; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 14%;
+}
+
+/*================================fim do video*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========inicio do rodapé*/
+    
+    .patrocinio { /*usei para colocar uma imagem ao lado da outra e configurar a margem  */
+        flex-direction: column;  
+        display: flex;
+        margin: 0px;
+        margin-top: 70px;
+    }
+    
+    footer {
+    margin-right: -0%;
+    background-color:black;
+    }
+
+    .displayfooter {
+        flex-direction:column;    
+        padding-right: 500px;
+    }
+   
+    .copy {
+        margin-top: 20px;
+    }
+
+   .imgfooter {
+    margin-bottom: 5px;
+    margin: 0px;
+    width: 600px;
+    height: 400px;
+    margin-left: 40% ;
+    margin-right: -60%;
+   }
+
+   .imginsta { /*usado para configurar a img do instagram */
+    width: 100px;
+    height: 80px;
+    margin-right: 0px;
+   }
+
+   .linkedin { /*usado para configurar a img do linkedin do responsavel */
+    width: 100px;
+    height: 80px;
+    margin-right: 0px;
+   }
+   
+
+   a {
+    margin-left: 30%;
+    margin-right: 0px;
+    margin: 0px;
+   }
+
+  .legfooter { /*usado para configurar a legenda do rodapé "siga nossos intagram" */
+    font-size: 50px;
+  }
+
+  .footerlinkedin{
+    padding-left: 200px;
+    margin-left: 0px;
+    margin-right: -300px; 
+    font-size: 40px;   
+}
+
+
+}
